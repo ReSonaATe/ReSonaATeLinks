@@ -68,7 +68,7 @@ div.imageContainer {
   flex-wrap: wrap;
   justify-content: center; /* center the boxes horizontally */
   align-items: flex-start; /* align them to the top */
-  gap: 4vw;               /* space between the boxes */
+  gap: 4vh 4vw;               /* space between the boxes */
   margin: 9vh auto auto;       /* adjust as needed */
 }
 
