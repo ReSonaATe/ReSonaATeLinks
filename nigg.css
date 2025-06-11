@@ -1,0 +1,94 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     text-align: center;
+
+    background-image: url(Navigate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;             /* This is the key change! */
+    background-position: center center;  /* Center image both horizontally and vertically */
+}
+/*
+div{
+    background-color: rgba(98, 98, 98, 0.41);
+    border: 2px solid black;
+    border-radius: 41px;
+}*/
+
+div.Heading {
+  background-color: rgba(98, 98, 98, 0.41);
+  border: 2px solid black;
+  border-radius: 41px;
+  display: inline-block;      /* Make box fit content */
+  padding: 1vh 3vw;           /* Add some padding for spacing */
+  margin: 9vh auto 2vh auto;  /* Center horizontally and add top margin */
+}
+
+h1 { 
+    color: rgb(255, 255, 255);
+    font-size: clamp(1rem, 5vw, 3.5rem);;
+    margin: 2vh 0 2vh 0;
+    text-align: center;
+}
+
+
+.BoxContainer {
+  display: flex;
+  justify-content: center; /* center the boxes horizontally */
+  align-items: flex-start; /* align them to the top */
+  gap: 4vw;               /* space between the boxes */
+  margin: 9vh auto;       /* adjust as needed */
+}
+
+.Box1, .Box2 {
+  background-color: rgba(98, 98, 98, 0.41);
+    border: 2px solid black;
+    border-radius: 41px;
+  flex: 1 1 0;            /* let them grow/shrink equally */
+  min-width: 200px;       /* optional: minimum width */
+  max-width: 500px;       /* optional: maximum width */
+  height: auto;
+  margin: 0;              /* remove old margin */
+}
+
+p { 
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-size: clamp(1rem, 1.5vw, 2.5rem);;
+    margin: 2vh 0 2vh 0;
+    padding: 1vh 2vw;
+}
+
+h2{
+  color: rgb(255, 255, 255);
+  font-size: clamp(1rem, 5vw, 3.5rem);
+  margin: 2vh 0 2vh 0;
+  text-align: center;
+}
+
+div.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center the boxes horizontally */
+  align-items: flex-start; /* align them to the top */
+  gap: 4vw;               /* space between the boxes */
+  margin: 9vh auto auto;       /* adjust as needed */
+}
+
+a img.Circle {
+  border-radius: 100%;
+  width: clamp(2rem, 10vw, 6rem);
+  height: clamp(2rem, 10vw, 6rem);
+  object-fit: cover; /* makes the image fill the circle */
+  display: block;    /* removes inline gap */
+}
+
+a img.Box {
+  width: clamp(2rem, 10vw, 6rem);
+  height: clamp(2rem, 10vw, 6rem);
+  object-fit: cover; /* makes the image fill the circle */
+  display: block;    /* removes inline gap */
+}

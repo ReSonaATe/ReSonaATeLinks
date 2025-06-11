@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="nigg.css">
+  <title>ReSonAte's Link Page</title>
+</head>
+
+
+<body>
+  <div class="Heading">
+    <h1>ReSonaATe</h1>
+  </div>
+
+  <div class="BoxContainer">
+  <div class="Box1">
+    <p>Kamusta! <br>
+      I'm ReSonaATe, you can just call me ReSo tho,<br>
+      I'm dogshit at games but I try 😭 <br>
+      If you see me don't be afraid to say hi... or a slur
+    </p>
+  </div>
+
+  <div class="Box2">
+    <h2>Links</h2>
+    <div class="imageContainer">
+      <a href="https://r6.tracker.network/r6siege/profile/ubi/ReSonaATe_/overview">
+        <img class="Box" src="R6.png" alt="Rainbow Six Siege">
+      </a>
+      <a href="https://steamcommunity.com/id/resonaate/">
+        <img class="Circle" src="Steam.jpg" alt="Steam">
+      </a>
+      <a href="https://tracker.gg/valorant/profile/riot/ReSonaATe%23NIKO/overview?platform=pc&playlist=competitive&season=aef237a0-494d-3a14-a1c8-ec8de84e309c">
+        <img class="Box" src="Valorant.jpg" alt="Valorant">
+      </a>
+      <a href="https://www.roblox.com/users/3922717508/profile">
+        <img class="Box" src="Roblox.png" alt="Roblox">
+      </a>
+      <a href="https://discord.com/users/516688827507539975">
+        <img class="Box" src="Discord.png" alt="Discord">
+      </a>
+    </div>
+
+  </div>
+</div>
+</body>
