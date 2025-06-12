@@ -12,7 +12,27 @@ body {
     background-position: center center;  /* Center image both horizontally and vertically */
 }
 
-div.Heading {
+div.Heading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;    /* center items horizontally */
+  justify-content: center; /* center items vertically */
+}
+
+div.pfp{
+  
+}
+
+img.Circle {
+  border: 1vh solid black;
+  border-radius: 100%;
+  width: clamp(2rem, 10vw, 6rem);
+  height: clamp(2rem, 10vw, 6rem);
+  object-fit: cover; /* makes the image fill the circle */
+  display: block;    /* removes inline gap */
+}
+
+div.IGN {
   background-color: rgba(98, 98, 98, 0.41);
   border: 2px solid black;
   border-radius: 41px;
