@@ -17,14 +17,15 @@ div.Heading{
   flex-direction: row;
   align-items: center;    /* center items horizontally */
   justify-content: center; /* center items vertically */
+  gap: 2vw;
 }
 
 div.pfp{
-  
+  margin: 9vh 0vw 2vh auto;
 }
 
 img.Circle {
-  border: 1vh solid black;
+  border: 0.2vw solid black;
   border-radius: 100%;
   width: clamp(2rem, 10vw, 6rem);
   height: clamp(2rem, 10vw, 6rem);
@@ -38,7 +39,7 @@ div.IGN {
   border-radius: 41px;
   display: inline-block;      /* Make box fit content */
   padding: 1vh 3vw;           /* Add some padding for spacing */
-  margin: 9vh auto 2vh auto;  /* Center horizontally and add top margin */
+  margin: 9vh auto 2vh 0vw;  /* Center horizontally and add top margin */
 }
 
 h1 { 
